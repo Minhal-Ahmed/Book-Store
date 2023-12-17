@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>The Book Worm</title>
+
+</head>
+<body>
+    <header class="title">
+        <h1 class="name">THE BOOK WORM</h1>
+    </header>
+<section class="list">
+    <section class="book-form">
+        <h2 style="color: rgb(146, 146, 210); text-align: center;" >Add a Book</h2><br>
+        <label for="bookName" class="n">Book Name:</label><br>
+        <input type="text" id="bookName">
+<br>
+<br>
+        <label for="authorName" class="n">Author Name:</label><br>
+        <input type="text" id="authorName" width="70%"><br><br>
+
+        <button class="add" onclick="addBook()">Add Book</button>
+    </section>
+
+    <ul id="book-list"></ul>
+
+</section>
+    <script src="./script.js"></script>
+</body>
+</html>
